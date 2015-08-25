@@ -48,8 +48,7 @@ import azkaban.utils.Props;
 
 public class JdbcExecutorLoaderTest {
   private static boolean testDBExists;
-  // @TODO remove this and turn into local host.
-  private static final String host = "cyu-ld.linkedin.biz";
+  private static final String host = "localhost";
   private static final int port = 3306;
   private static final String database = "azkaban2";
   private static final String user = "azkaban";
